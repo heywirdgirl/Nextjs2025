@@ -14,7 +14,7 @@ export default function PostDetail({ post }: IProps) {
 
   // if router is still loading, show loading message
   if (router.isFallback) {
-    return <div>Loading...</div>
+    return <div>Loading...</div>;
   }
 
   return (
@@ -22,7 +22,7 @@ export default function PostDetail({ post }: IProps) {
       <h1>{post.title}</h1>
       <p>{post.content}</p>
     </>
-  )
+  );
 }
 
 // -< Firestore >-

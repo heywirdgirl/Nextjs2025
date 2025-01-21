@@ -14,7 +14,7 @@ export default function PostDetail({ post }: IProps) {
 
   // if router is still loading, show loading message
   if (router.isFallback) {
-    return <div>Loading...</div>;
+    return (<><div>Loading...</div></>);
   }
 
   return (

@@ -13,15 +13,6 @@ export default function Home({ posts }: IProps) {
   return (
     <>
       <h1>Posts</h1>
-
-      {posts.map((post: IPost) => (
-        <div key={post.id}>
-          
-            <h2>{post.title}</h2>
-          
-          <p>{post.content}</p>
-        </div>
-      ))}
     </>
   )
 }

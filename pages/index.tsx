@@ -16,9 +16,9 @@ export default function Home({ posts }: IProps) {
 
       {posts.map((post: IPost) => (
         <div key={post.id}>
-          <Link href={`/posts/${post.id}`} className='link'>
+          
             <h2>{post.title}</h2>
-          </Link>
+          
           <p>{post.content}</p>
         </div>
       ))}

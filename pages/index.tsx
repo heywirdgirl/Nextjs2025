@@ -12,7 +12,7 @@ interface IProps {
 export default function Home({ posts }: IProps) {
   return (
     <>
-      <h1>Posts</h1>
+      <h1>Posts MAIN</h1>
 
       {posts.map((post: IPost) => (
         <div key={post.id}>
